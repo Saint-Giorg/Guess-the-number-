@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/num\ ber\ wall.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.title{
+    position: relative;
+    left: 284px;
+    top: 110px;
+    font-size: 80px;
+    color: rgb(242, 188, 9);
+    backdrop-filter: blur(5px);
+    text-shadow: 2px 2px 5px hotpink;
+
+}
+input{
+    position: relative;
+    font-size: 30px;
+    left: 33%;
+    top: 20vh;
+    border: 3px solid hotpink;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+::placeholder {
+    color: red;
+    opacity: 7;
+}
+.btn{
+    position: relative;
+    top: 19.5vh;
+    left: 63vh;
+    padding: 12.5px;
+    border-radius: 10px;
+    /* z-index: -1; */
+    width: 90px;
+    border: 3px solid hotpink;
+    font-size: 20px;
+    color: #f8b406;   
+}
+.btn:hover,.btn:active{
+    background:linear-gradient(#ff69b4,#0000ff);
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #4da3f4;
+}
+.welcome{
+    position: relative;
+    font-size: 70px;
+    top: 27vh;
+    color: #252225;
+    left: 10%;
+    text-shadow: 2px 2px 5px hotpink;
+
+    font-family: "Mona Sans", serif;
+}
+.wizard{
+    position: relative;
+    top: 14vh;
+    font-size: 80px;
+    left: 35%;
+    text-shadow: 2px 2px 5px hotpink;
+    backdrop-filter: blur(10px);
+    font-weight: 700;
+    
+}
+.welcome_cont{
+    position: relative;
+    top: 14vh;
+    left: 34%;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: "Noto Serif Khitan Small Script", serif;
+}
+.btn{
+    position: relative;
+    top: 20vh;
+    left: 30%;
+    width: 30%;
+    padding: 10px;
+    border:  none;
+    font-size:30px;
+    color: #e34141;
+}
+.btn:hover,.btn:active{
+    background: linear-gradient(#ff69b4, #add8e6);
+    color: #252225;
+    border-radius: 5px;
+    border: solid 1px sandybrown;
+    
+}
+img{
+    background-size: contain;
+    background-repeat: center;
+    width: 20%;
+    
+    position: relative;
+    float: right;
+    bottom: 140px;
+}
